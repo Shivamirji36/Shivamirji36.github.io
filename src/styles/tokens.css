@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600&family=Source+Code+Pro:wght@400;500;700&display=swap');
+
+:root {
+  /* Colors */
+  --color-bg:           #ffffff;
+  --color-heading:      #061b31;
+  --color-body:         #64748d;
+  --color-label:        #273951;
+  --color-border:       #e5edf5;
+  --color-purple:       #533afd;
+  --color-purple-hover: #4434d4;
+  --color-purple-deep:  #2e2b8c;
+  --color-purple-light: #b9b9f9;
+  --color-purple-soft:  rgba(83,58,253,0.05);
+  --color-brand-dark:   #1c1e54;
+  --color-dark-navy:    #0d253d;
+  --color-ruby:         #ea2261;
+  --color-magenta:      #f96bee;
+  --color-magenta-light:#ffd7ef;
+  --color-success:      #15be53;
+  --color-success-text: #108c3d;
+
+  /* Shadows */
+  --shadow-card:    rgba(50,50,93,0.25) 0px 30px 45px -30px,
+                    rgba(0,0,0,0.1) 0px 18px 36px -18px;
+  --shadow-ambient: rgba(23,23,23,0.08) 0px 15px 35px 0px;
+  --shadow-soft:    rgba(23,23,23,0.06) 0px 3px 6px 0px;
+  --shadow-deep:    rgba(3,3,39,0.25) 0px 14px 21px -14px,
+                    rgba(0,0,0,0.1) 0px 8px 17px -8px;
+
+  /* Typography */
+  --font-primary: 'Sora', 'SF Pro Display', sans-serif;
+  --font-mono:    'Source Code Pro', 'SFMono-Regular', monospace;
+
+  /* Border radius */
+  --radius-xs:  2px;
+  --radius-sm:  4px;
+  --radius-md:  6px;
+  --radius-lg:  8px;
+
+  /* Spacing base 8px */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+}
